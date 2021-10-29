@@ -47,6 +47,18 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
+    
+    <!-- Flyway specific dependencies -->
+    <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-flyway</artifactId>
+    </dependency>
+    
+    <!-- MySQL dependencies -->
+    <dependency>
+		<groupId>io.quarkus</groupId>
+		<artifactId>quarkus-jdbc-mysql</artifactId>
+	</dependency>
   </dependencies>
   <build>
     <plugins>
