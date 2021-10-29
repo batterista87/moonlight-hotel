@@ -1,0 +1,12 @@
+quarkus:
+  # datasource configuration
+  datasource:
+    db-kind: mysql
+    username: root
+    password: root
+    jdbc:
+      url: jdbc:mysql://localhost:3306/moonlight_hotel?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+  
+  # Flyway minimal config properties
+  flyway:
+    migrate-at-start: true

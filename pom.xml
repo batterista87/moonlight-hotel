@@ -59,6 +59,13 @@
 		<groupId>io.quarkus</groupId>
 		<artifactId>quarkus-jdbc-mysql</artifactId>
 	</dependency>
+	
+	<!-- YAML dependencies -->
+	<dependency>
+	    <groupId>io.quarkus</groupId>
+	    <artifactId>quarkus-config-yaml</artifactId>
+	</dependency>
+	
   </dependencies>
   <build>
     <plugins>
