@@ -10,3 +10,7 @@ quarkus:
   # Flyway minimal config properties
   flyway:
     migrate-at-start: true
+    
+  # drop and create the database at startup (use `update` to only update the schema)
+  hibernate-orm:
+    dialect: org.hibernate.dialect.MySQL8Dialect

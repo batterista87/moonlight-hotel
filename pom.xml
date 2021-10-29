@@ -66,6 +66,12 @@
 	    <artifactId>quarkus-config-yaml</artifactId>
 	</dependency>
 	
+	<!-- Hibernate ORM specific dependencies -->
+    <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-hibernate-orm</artifactId>
+    </dependency>
+    
   </dependencies>
   <build>
     <plugins>
